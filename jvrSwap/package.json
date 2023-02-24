@@ -1,0 +1,24 @@
+{
+  "name": "daps-swap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network ropsten --reset",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "openzeppelin-solidity": "^2.2.0",
+    "truffle": "^5.0.13",
+    "truffle-hdwallet-provider-privkey": "^1.0.3"
+  },
+  "devDependencies": {
+    "bn-chai": "^1.0.1",
+    "chai": "^4.2.0",
+    "openzeppelin-test-helpers": "^0.4.2",
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.30"
+  }
+}
