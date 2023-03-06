@@ -36,7 +36,7 @@ contract JVRswap is Ownable {
                 _registers[eth].length < MAX_CHANGE_TIMES,
                 "Address change limit exceeded"
             );
-            emit Reconnect(eth, getCurrentDAPSAddress(eth), _jvr);
+            emit Reconnect(eth, getCurrentJVRAddress(eth), _jvr);
             _registers[eth].push(_jvr);
         }
     }
